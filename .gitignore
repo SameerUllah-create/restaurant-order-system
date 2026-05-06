@@ -1,0 +1,18 @@
+# IDE
+.vscode/
+.idea/
+*.code-workspace
+
+# OS
+.DS_Store
+Thumbs.db
+
+# PHP
+*.log
+
+# Database
+*.sql
+
+# Sensitive files
+.env
+config.local.php
