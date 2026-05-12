@@ -473,7 +473,7 @@ if ($foods_result) {
                                 Price <span class="text-danger">*</span>
                             </label>
                             <div class="input-group input-group-lg">
-                                <span class="input-group-text">$</span>
+                                <span class="input-group-text">PKR</span>
                                 <input type="number" 
                                        class="form-control" 
                                        id="foodPrice" 
