@@ -164,13 +164,13 @@ $items_stmt->close();
                                 <strong><?php echo htmlspecialchars($item['food_name']); ?></strong>
                             </td>
                             <td class="text-center align-middle">
-                                <span class="badge bg-info">$<?php echo number_format($item['price'], 2); ?></span>
+                                <span class="badge bg-info">PKR <?php echo number_format($item['price'], 2); ?></span>
                             </td>
                             <td class="text-center align-middle">
                                 <strong><?php echo $item['quantity']; ?></strong>
                             </td>
                             <td class="text-end align-middle">
-                                <strong class="text-warning">$<?php echo number_format($item['price'] * $item['quantity'], 2); ?></strong>
+                                <strong class="text-warning">PKR <?php echo number_format($item['price'] * $item['quantity'], 2); ?></strong>
                             </td>
                         </tr>
                         <?php
@@ -205,7 +205,7 @@ $items_stmt->close();
             <div class="card-body">
                 <div class="d-flex justify-content-between mb-4">
                     <strong class="h5">Total Amount:</strong>
-                    <strong class="h5 text-success">$<?php echo number_format($order['total'], 2); ?></strong>
+                    <strong class="h5 text-success">PKR <?php echo number_format($order['total'], 2); ?></strong>
                 </div>
 
                 <!-- Confirmation Number -->

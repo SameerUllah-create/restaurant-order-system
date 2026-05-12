@@ -234,9 +234,9 @@ $total_revenue = $total_revenue_result->fetch_assoc()['total_revenue'] ?? 0;
                         <div class="col-md-3 mb-3">
                             <div class="stat-card">
                                 <div class="stat-icon">
-                                    <i class="fas fa-dollar-sign"></i>
+                                    <i class="fas fa-rupee-sign"></i>
                                 </div>
-                                <div class="stat-value">$<?php echo number_format($total_revenue, 2); ?></div>
+                                <div class="stat-value">PKR <?php echo number_format($total_revenue, 2); ?></div>
                                 <div class="stat-label">Total Revenue</div>
                             </div>
                         </div>

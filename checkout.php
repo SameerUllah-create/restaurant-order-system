@@ -196,7 +196,7 @@ $final_total = $order_total + $tax_amount + $delivery_charge;
                                 <span class="text-muted">Qty: <?php echo $item['quantity']; ?></span>
                             </div>
                             <div class="text-end">
-                                $<?php echo number_format($subtotal, 2); ?>
+                                PKR <?php echo number_format($subtotal, 2); ?>
                             </div>
                         </div>
                         <?php
@@ -209,15 +209,15 @@ $final_total = $order_total + $tax_amount + $delivery_charge;
                 <div class="mb-3">
                     <div class="d-flex justify-content-between mb-2">
                         <span class="text-muted">Subtotal:</span>
-                        <span>$<?php echo number_format($order_total, 2); ?></span>
+                        <span>PKR <?php echo number_format($order_total, 2); ?></span>
                     </div>
                     <div class="d-flex justify-content-between mb-2">
                         <span class="text-muted">Tax (10%):</span>
-                        <span>$<?php echo number_format($tax_amount, 2); ?></span>
+                        <span>PKR <?php echo number_format($tax_amount, 2); ?></span>
                     </div>
                     <div class="d-flex justify-content-between mb-3">
                         <span class="text-muted">Delivery Charge:</span>
-                        <span>$<?php echo number_format($delivery_charge, 2); ?></span>
+                        <span>PKR <?php echo number_format($delivery_charge, 2); ?></span>
                     </div>
                     <hr>
                 </div>
@@ -225,7 +225,7 @@ $final_total = $order_total + $tax_amount + $delivery_charge;
                 <!-- Final Total -->
                 <div class="d-flex justify-content-between mb-4">
                     <strong class="h5">Total Amount:</strong>
-                    <strong class="h5 text-warning">$<?php echo number_format($final_total, 2); ?></strong>
+                    <strong class="h5 text-warning">PKR <?php echo number_format($final_total, 2); ?></strong>
                 </div>
 
                 <!-- Delivery Information -->

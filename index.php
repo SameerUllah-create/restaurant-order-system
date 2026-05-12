@@ -68,7 +68,7 @@ if ($result->num_rows > 0) {
                     
                     <!-- Price Badge -->
                     <span class="badge bg-warning text-dark position-absolute top-0 end-0 m-2" style="font-size: 1rem;">
-                        $<?php echo number_format($price, 2); ?>
+                        PKR <?php echo number_format($price, 2); ?>
                     </span>
                 </div>
                 

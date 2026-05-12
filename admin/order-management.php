@@ -361,7 +361,7 @@ $stmt->close();
                                             <i class="fas fa-phone"></i> <?php echo $phone; ?>
                                         </td>
                                         <td class="align-middle">
-                                            <strong class="text-warning">$<?php echo number_format($total, 2); ?></strong>
+                                            <strong class="text-warning">PKR <?php echo number_format($total, 2); ?></strong>
                                         </td>
                                         <td class="align-middle">
                                             <!-- Status Update Form -->
@@ -426,7 +426,7 @@ $stmt->close();
                                                     <div class="row mb-3">
                                                         <div class="col-md-6">
                                                             <p class="text-muted mb-1">Total Amount</p>
-                                                            <h6 class="text-warning">$<?php echo number_format($total, 2); ?></h6>
+                                                            <h6 class="text-warning">PKR <?php echo number_format($total, 2); ?></h6>
                                                         </div>
                                                         <div class="col-md-6">
                                                             <p class="text-muted mb-1">Order Status</p>

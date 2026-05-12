@@ -406,7 +406,7 @@ if ($foods_result) {
                                             <strong><?php echo $food_name; ?></strong>
                                         </td>
                                         <td class="align-middle">
-                                            <span class="badge bg-info">$<?php echo number_format($price, 2); ?></span>
+                                            <span class="badge bg-info">PKR <?php echo number_format($price, 2); ?></span>
                                         </td>
                                         <td class="align-middle">
                                             <button class="btn btn-sm btn-sm-edit" title="Edit">
@@ -483,7 +483,7 @@ if ($foods_result) {
                                        min="0"
                                        required>
                             </div>
-                            <small class="form-text text-muted">Enter the price in dollars</small>
+                            <small class="form-text text-muted">Enter the price in PKR</small>
                         </div>
 
                         <!-- Image Upload -->

@@ -172,7 +172,7 @@ foreach ($_SESSION['cart'] as $item) {
                         
                         <!-- Price -->
                         <td class="text-center align-middle">
-                            <span class="badge bg-info">$<?php echo number_format($price, 2); ?></span>
+                            <span class="badge bg-info">PKR <?php echo number_format($price, 2); ?></span>
                         </td>
                         
                         <!-- Quantity with +/- Buttons -->
@@ -204,7 +204,7 @@ foreach ($_SESSION['cart'] as $item) {
                         
                         <!-- Subtotal -->
                         <td class="text-center align-middle">
-                            <strong class="text-warning">$<?php echo number_format($subtotal, 2); ?></strong>
+                            <strong class="text-warning">PKR <?php echo number_format($subtotal, 2); ?></strong>
                         </td>
                         
                         <!-- Remove Button -->
@@ -262,7 +262,7 @@ foreach ($_SESSION['cart'] as $item) {
                     </div>
                     <div class="d-flex justify-content-between mb-3">
                         <span>Subtotal:</span>
-                        <strong class="text-warning">$<?php echo number_format($cart_subtotal, 2); ?></strong>
+                        <strong class="text-warning">PKR <?php echo number_format($cart_subtotal, 2); ?></strong>
                     </div>
                     <hr>
                 </div>
